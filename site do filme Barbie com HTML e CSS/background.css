@@ -1,0 +1,65 @@
+.background{
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    
+}
+
+
+/*ele vai dar uma sombra no footer*/
+.background::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--shadow-car);
+}
+
+.cloud{
+   position: absolute;
+   z-index: -2;
+   left: -258px;
+   width: auto;
+   height: 11vh;
+   animation: moveCloud 10s linear infinite;
+}
+
+.cloud:nth-child(1){
+    top: 70px;
+    /*left: 470px;*/
+    animation: moveCloud 20s linear ;
+}
+.cloud:nth-child(2) {
+    top:190px;
+    /* left:450px; */
+    animation-delay: 5s;
+}
+.cloud:nth-child(3) {
+    top:420px;
+    /* left:800px; */
+    animation-delay: 7s;
+}
+.cloud:nth-child(4) {
+    top:310px;
+    /* left:650px; */
+    animation-delay: 12s;
+}
+.cloud:nth-child(5) {
+    top:520px;
+    /* left:450px; */
+    animation-delay: 16s;
+}
+
+.car{
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+}
+@keyframes moveCloud{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(100vw ));
+    }
+}
