@@ -13,7 +13,7 @@
 
 # Visualize o projeto abaixo:
 
-[Veja-o aqui!](https://lista-de-tarefas-topaz-three.vercel.app/).
+[Veja-o aqui!](https://landing-page-da-barbie.vercel.app/)
    
 ## Tecnologias Aprendidas:
  - HTML.
