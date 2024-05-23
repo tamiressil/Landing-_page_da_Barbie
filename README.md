@@ -8,7 +8,12 @@
    
 ## Link do yotube:
 
- [Clique aqui para acessar!] https://www.youtube.com/watch?v=Vpgpt9jhJDI
+ [Clique aqui para acessar!] (https://www.youtube.com/watch?v=Vpgpt9jhJDI)
+
+
+# Visualize o projeto abaixo:
+
+[Veja-o aqui!](https://lista-de-tarefas-topaz-three.vercel.app/).
    
 ## Tecnologias Aprendidas:
  - HTML.
